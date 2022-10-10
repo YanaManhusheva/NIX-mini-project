@@ -1,0 +1,203 @@
+* {
+  font-family: "Raleway", sans-serif;
+  color: #ebebef;
+}
+
+body {
+  background-color: #101010;
+  overflow-x: hidden;
+}
+
+.navbar-brand {
+  padding-top: var(--bs-navbar-brand-padding-y);
+  padding-bottom: var(--bs-navbar-brand-padding-y);
+  margin-right: var(--bs-navbar-brand-margin-end);
+  font-size: var(--bs-navbar-brand-font-size);
+  color: var(--bs-navbar-brand-color);
+}
+
+.navbar-dark {
+  text-transform: uppercase;
+}
+.bg-dark {
+  --bs-bg-opacity: 1;
+  background-color: #101010 !important;
+}
+
+.header__inner-home {
+  background-image: url(../src/images/Ellipse.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.header__inner .row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title,
+.description {
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 25px;
+}
+.title {
+  text-transform: uppercase;
+  font-size: 45px;
+}
+
+.inner__img {
+  width: 770px;
+  max-height: 650px;
+}
+
+/*CATEGORIES*/
+
+.header__title {
+  text-align: center;
+  color: #2225a2;
+  font-size: 50px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: 400;
+}
+
+.header__inner {
+  padding-top: 60px;
+  overflow-x: hidden;
+}
+
+.main {
+  overflow-x: hidden;
+}
+.main__categorie {
+  padding: 0 200px;
+}
+
+.categotie__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.categorie__name {
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+.categorie__link {
+  text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+  color: #2225a2;
+}
+.categorie__link:hover {
+  color: #3e42ef;
+}
+.categoties__img {
+  display: flex;
+  justify-content: end;
+}
+.categorie__img {
+  max-height: 220px;
+  max-width: 250px;
+}
+
+hr {
+  margin: 20px auto;
+}
+
+.left_title {
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.categoties__img-bg {
+  background-image: url(../src/images/Ellipse.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 70%;
+}
+
+.main-categorie__img {
+  max-height: 350px;
+}
+
+.card {
+  --bs-card-border-radius: 0.2rem;
+}
+.card-title {
+  font-size: 28px;
+  margin-bottom: 0;
+}
+.card-img-top {
+  width: 50%;
+}
+
+.btn-buy {
+  border: 0;
+  display: block;
+  width: 30%;
+  text-decoration: none;
+  background-color: #2225a2;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 25px;
+  color: #ebebef;
+  margin: 10px auto 0;
+  transition: all 200ms ease-in-out;
+}
+.btn-buy:hover {
+  color: #2225a2;
+  background-color: #ebebef;
+}
+
+.contact-description {
+  text-align: left;
+  color: #2225a2;
+  font-size: 25px;
+}
+
+.main__inner-contacts {
+  width: 70%;
+  margin: 0 auto;
+}
+.main__inner-contacts p {
+  margin-bottom: 5px;
+}
+.contact-title {
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.contact-btn {
+  border: 1px solid #2225a2;
+  display: block;
+  width: 40%;
+  text-decoration: none;
+  background-color: transparent;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 25px;
+  color: #ebebef;
+  transition: all 200ms ease-in-out;
+  margin-left: auto;
+}
+.contact-btn:hover {
+  color: #2225a2;
+}
+
+.social-media-link {
+  text-decoration: none;
+  color: #2225a2;
+}
+
+.social-media-links {
+  text-align: right;
+}

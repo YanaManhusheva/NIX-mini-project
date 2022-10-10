@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Raleway:wght@200;300;400;500;600;700;800;900&family=Source+Serif+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="stylesheet" href="src/white-ton.css" />
+    <title>Cart</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="homepage.html">In-move.com</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="homepage.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="categories.html">Categories</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Cart</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="header">
+      <div class="header__inner container">
+        <div class="header__text">
+          <h1 class="title">your cart</h1>
+          <p class="description">Free delivery and free returns.</p>
+        </div>
+      </div>
+    </header>
+    <main class="main cart">
+      <div class="container">
+        <hr />
+
+        <div class="row main__cart-product">
+          <div class="row main__cart-bg">
+            <div class="col-4">
+              <img src="src/images/Ipad.png" alt="" />
+            </div>
+            <div class="col-md-4">
+              <div class="main__cart-text">
+                10.9-inch iPad Air Wi-Fi 64GB - Space Gray
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="main__cart-price">$599.00</div>
+            </div>
+          </div>
+          <div class="row main__cart-link">
+            <div class="col">
+                <a href="" class="main__cart-link">Remove</a>
+            </div>
+          </div>
+        </div>
+
+        <hr />
+
+        <div class="row main__cart-details mt-5">
+          <div class="row cart-prices">
+            <div class="cart-prices__inner cart-text">
+              <p>Subtotal</p>
+              <p>$599.00</p>
+            </div>
+            <div class="cart-prices__inner cart-text">
+              <p>Shipping</p>
+              <p>FREE</p>
+            </div>
+            <div class="cart-prices__inner cart-text">
+              <p>Estimated tax</p>
+              <p>FREE</p>
+            </div>
+          </div>
+        </div>
+        <hr />
+
+        <div class="row main__cart-total mt-5">
+          <div class="row cart-total">
+            <div class="cart-prices__inner cart-text">
+              <p class="cart-total__text">Total</p>
+              <p class="cart-total__text">$599.00</p>
+            </div>
+          </div>
+        </div>
+          <div class="row cart-total__link">
+            <a href="" class="main__cart-link"
+              >Get daily cash with apple card</a
+            >
+          </div>
+        </div>
+
+        <div class="row main__cart-button mt-5 mb-5">
+          <a href="order.html" class="main__cart-btn btn-buy">Next</a>
+        </div>
+      </div>
+    </main>
+
+     <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

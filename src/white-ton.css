@@ -1,0 +1,203 @@
+* {
+  font-family: "Raleway", sans-serif;
+  color: #101010;
+}
+
+body {
+  background-color: #ebebef;
+  overflow-x: hidden;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link.active,
+.nav-link:hover,
+.navbar-brand:hover {
+  opacity: 1;
+  color: #101010;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.nav-link {
+  color: #101010;
+  opacity: 0.8;
+}
+
+.bg-dark {
+  --bs-bg-opacity: 1;
+  background-color: #ebebef !important;
+}
+
+.title {
+  color: #2225a2;
+}
+.title,
+.description {
+  font-weight: 400;
+  text-align: left;
+}
+
+hr {
+  color: #2225a2;
+  width: 100%;
+}
+
+.main__cart-price {
+  font-weight: 500;
+  font-size: 35px;
+  text-align: end;
+}
+
+.main__cart-text {
+  font-size: 25px;
+}
+
+.main.cart {
+  background-image: url(../src/images/Ellipse.png);
+  background-repeat: no-repeat;
+  background-size: 30%;
+  background-position: -10% 10%;
+}
+.main__cart-link {
+  display: block;
+  text-decoration: none;
+  font-weight: 500;
+  text-align: right;
+  font-size: 20px;
+  transition: all 200ms ease-in-out;
+  color: #2225a2;
+}
+.main__cart-remove:hover {
+  color: #3e42ef;
+}
+
+.cart-prices__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart-text {
+  font-size: 25px;
+}
+.cart-prices__inner p:nth-child(2) {
+  font-weight: 500;
+}
+
+.main__cart-btn {
+  width: 20%;
+  font-size: 30px;
+}
+.main__cart-btn:hover {
+  color: #ebebef;
+  background-color: #101010;
+}
+
+.cart-total__inner {
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-total__text {
+  margin-bottom: 0;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.order-title {
+  color: #ebebef;
+}
+
+.form-control {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  color: #212529;
+  background-color: transparent;
+  background-clip: padding-box;
+  border: 0;
+  border-bottom: 2px solid #2225a2;
+  border-radius: 0;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.order-form {
+  width: 70%;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+.form-control:focus {
+  color: #212529;
+  background-color: #ebebef;
+  border-color: #2225a2;
+  font-weight: 500;
+  box-shadow: 0 0 0 0.25remrgba (13, 110, 253, 0.25);
+}
+
+.order-form div[class|="col"] {
+  margin-top: 30px;
+}
+
+.header.order {
+  background-image: url(../src/images/Ellipse.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left;
+}
+.order-btn {
+  width: 50%;
+}
+
+.order-btn:hover {
+  background-color: #101010;
+  color: #ebebef;
+}
+.main__buy-product {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.concrete-product {
+  height: 600px;
+  width: 600px;
+  display: block;
+  margin: 0 auto;
+}
+
+.main__buy-details {
+  font-size: 20px;
+}
+
+.product-price {
+  text-align: end;
+  color: #2225a2;
+  font-size: 35px;
+}
+.product-details-title {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.product-feature {
+  list-style-type: "- ";
+}
+
+.product-warranty-check {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-check-input:checked {
+  background-color: #2225a2;
+  border-color: #2225a2;
+}
+
+@media (max-width: 768px) {
+  .main__cart-btn {
+    width: 30%;
+  }
+  .order-btn {
+    width: 60%;
+  }
+}
