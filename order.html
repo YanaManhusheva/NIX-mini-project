@@ -71,6 +71,7 @@
               class="form-control"
               id="user-name"
               placeholder="Name"
+              required
             />
           </div>
           <div class="col-md-6">
@@ -79,6 +80,7 @@
               class="form-control"
               id="user-surname"
               placeholder="Surname"
+              required
             />
           </div>
           <div class="col-12">
@@ -87,6 +89,7 @@
               class="form-control"
               id="user-region"
               placeholder="Region"
+              required
             />
           </div>
           <div class="col-12">
@@ -95,14 +98,16 @@
               class="form-control"
               id="user-address"
               placeholder="Address"
+              required
             />
           </div>
           <div class="col-md-6">
             <input
-              type="text"
+              type="number"
               class="form-control"
               id="user-postCode"
               placeholder="Post Code"
+              required
             />
           </div>
           <div class="col-md-6">
@@ -111,6 +116,7 @@
               class="form-control"
               id="user-town"
               placeholder="Town"
+              required
             />
           </div>
           <div class="col-md-6">
@@ -129,9 +135,11 @@
               placeholder="Telephone"
             />
           </div>
-          <a href="contact.html" class="mt-5 mb-5 btn-buy order-btn"
-            >Go to payment</a
-          >
+          <input
+            type="submit"
+            class="mt-5 mb-5 btn-buy order-btn"
+            value="Go to payment"
+          />
         </form>
       </div>
     </main>
